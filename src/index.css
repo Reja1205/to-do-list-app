@@ -1,0 +1,84 @@
+/* Header starts  */
+.header {
+  background-color: #52768b;
+  color: white;
+  line-height: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 10px;
+}
+/* Header ends */
+/* Main starts */
+
+/* Main ends */
+/* Sidebar starts */
+.sidebar {
+  background-color: rgb(223, 217, 217);
+  height: 100vh;
+  width: 20%;
+}
+.sidebar-box {
+  padding-top: 1rem;
+}
+.todos-of {
+  font-size: 1.5rem;
+}
+.btn {
+  background-color: #52768b;
+  padding: 10px;
+}
+.todosOf_item {
+  font-size: 1.2rem;
+}
+.todosOf_item a {
+  text-decoration: none;
+}
+.todosOf_items {
+  cursor: pointer;
+  display: inline-block;
+
+  padding-top: 1rem;
+}
+.todosOf_item-today {
+}
+/* Sidebar ends */
+.today {
+  background-color: darkgray;
+  margin: 10px 10px;
+  width: 500px;
+  text-align: center;
+}
+.todoItems {
+  display: flex;
+  justify-content: space-between;
+}
+.todoDetail {
+  display: flex;
+  justify-content: space-between;
+}
+.allTodos {
+  background-color: darkgray;
+  width: 600px;
+}
+.todo {
+  border: 2px solid black;
+  padding: 20px;
+}
+.todoIconBox {
+  display: flex;
+  gap: 5px;
+}
+.allTask {
+  margin-top: 15px;
+}
+.todoList {
+  background-color: darkgray;
+  padding: 10px 10px;
+  margin-top: 15px;
+}
+.checked {
+  width: 100%;
+  text-decoration: line-through;
+}
